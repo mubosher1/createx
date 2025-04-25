@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 10px 90px;
+}
+
+header h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+header .phone {
+  display: flex;
+}
+
+header .gmail {
+  display: flex;
+  gap: 5px;
+}
+
+header ul li {
+  display: flex;
+  gap: 40px;
+}
+
+header ul li a {
+  font-family: Ubuntu;
+  color: black;
+}
+
+.container {
+  width: 100%;
+ height: 600px;
+  background-image: url("./img/cntct.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_text {
+  width: 600px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.container_text h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container_text p {
+  width: 470px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 25px;
+}
+
+
+/* contact */
+
+.contact {
+  margin-top: 80px;
+}
+
+.contact h2 {
+  font-size: 46px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+}
+
+.contact p {
+  color: #787A80;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.contact img {
+  width: 430px;
+  height: 550px;
+  margin-top: 60px;
+  margin-left: 145px;
+}
+
+.contact_inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 650px;
+  margin-top: -500px;
+}
+
+.contact_inputs .label1 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  gap: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  transform: translateY(-70px);
+}
+
+.contact_inputs .label1 input {
+  width: 230px;
+  height: 52px;
+  border: 1px solid #787A80;
+  outline: none;
+  padding: 8px;
+  background: none;
+  background-color: #D7DADD;
+  border-radius: 4px;
+}
+
+.contact_inputs .label2 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 10px;
+  line-height: 160%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  margin-top: -50px;
+}
+
+.contact_inputs .label2 input {
+  width: 230px;
+  height: 52px;
+  border: 1px solid #787A80;
+  outline: none;
+  padding: 8px;
+  background: none;
+  background-color: #D7DADD;
+  border-radius: 4px;
+}
+
+.contact_inputs .label3 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  gap: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact_inputs .label3 input {
+  width: 230px;
+  height: 52px;
+  border: 1px solid #787A80;
+  outline: none;
+  padding: 8px;
+  background: none;
+  background-color: #D7DADD;
+  border-radius: 4px;
+}
+
+.contact_inputs .label4 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  gap: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact_inputs .label4 input {
+  width: 550px;
+  height: 128px;
+  border: 1px solid #787A80;
+  outline: none;
+  padding: 10px;
+  background: none;
+  background-color: #D7DADD;
+  border-radius: 4px;
+}
+
+
+.contact_inputs .label5 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 10px;
+  line-height: 160%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-top: -488px;
+}
+
+.contact_inputs .label5 select {
+  width: 230px;
+  height: 52px;
+  border: 1px solid #787A80;
+  outline: none;
+  padding: 10px;
+  background: none;
+  background-color: #D7DADD;
+  border-radius: 4px;
+}
+
+.contact_inputs .label6 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 10px;
+  line-height: 160%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-top: 22px;
+}
+
+.contact_inputs .label6 select {
+  width: 230px;
+  height: 52px;
+  border: 1px solid #787A80;
+  outline: none;
+  padding: 8px;
+  background: none;
+  background-color: #D7DADD;
+  border-radius: 4px;
+}
+
+.contact_p {
+  margin-left: 100px;
+}
+
+.contact_lbl{
+  display: flex;
+  gap: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.contact_lbl label{
+  display: flex;
+  gap: 8px;
+}
+
+.contact_btn{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 210px;
+}
+
+#image-inp-btn {
+  width: 174px;
+  height: 46px;
+  color: #fff;
+  margin-top: -50px;
+  border-radius: 4px;
+  margin-left: 150px;
+  background-color: #FF5A30;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* office */
+
+.office{
+  background-color: #F4F5F6;
+}
+
+.office_text{
+  margin-top: 80px;
+}
+
+.office_text h2{
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.office_text p{
+  color: #787A80;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.office_cards{
+  display: flex;
+  margin-top: 60px;
+  gap: 100px;
+  margin-left: 150px;
+}
+
+.office_card1 h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.office_card1 p{
+  margin-top: 24px;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.office_card1 a{
+  margin-top: 6px;
+  color: #FF5A30;
+}
+
+.office_card2 h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.office_card2 p{
+  margin-top: 24px;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.office_card2 a{
+  margin-top: 6px;
+  color: #FF5A30;
+}
+
+.office_card3 h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.office_card3 p{
+  margin-top: 24px;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.office_card3 a{
+  margin-top: 6px;
+  color: #FF5A30;
+}
+
+.office_bot{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  gap: 50px;
+  margin-left: 510px;
+}
+
+#office_h{
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.office_bot i{
+  font-size: 24px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1E212C;
+  width: 100%;
+  height: 566px;
+  margin-top: 12px;
+}
+
+.footer_up {
+  padding-top: 82px;
+  margin-left: 100px;
+}
+
+.footer_up i {
+  font-size: 24px;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.footer_up p {
+  width: 594px;
+  height: 84px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.footer_down {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 100px;
+  margin-top: 120px;
+  color: #fff;
+}
+
+.footer_down h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_down b {
+  margin-left: -6px;
+  margin-top: 80px;
+}
+
+.footer_inp {
+  color: #fff;
+  margin-top: -460px;
+  margin-left: 800px;
+}
+
+.footer_inp h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_inp input {
+  width: 340px;
+  height: 38px;
+  background-color: rgba(128, 128, 128, 0.61);
+  margin-top: 24px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 4px 0px 0px 4px;
+  padding: 12px 20px;
+}
+
+.footer_inp button{
+  width: 100px;
+  height: 38px;
+  border-radius: 0px 4px 4px 0px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-left: -4px;
+  cursor: pointer;
+  background-color: #FF5A30;
+}
+
+.footer_inp p{
+  width: 450px;
+  margin-top: 10px;
+  color: #787A80;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.footer_cent{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 90px;
+  margin-left: 520px;
+}
+
+.footer_right{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: -120px;
+  margin-left: 800px;
+}
+
+#footer_p{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 70px;
+  margin-left: 1150px;
+  line-height: 150%;
+  font-weight: 400;
+}

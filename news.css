@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 10px 90px;
+}
+
+header h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+header .phone {
+  display: flex;
+}
+
+header .gmail {
+  display: flex;
+  gap: 5px;
+}
+
+header ul li {
+  display: flex;
+  gap: 40px;
+}
+
+header ul li a {
+  font-family: Ubuntu;
+  color: black;
+}
+
+.container {
+  width: 100%px;
+  height: 100vh;
+  background-image: url("./img/bck.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_text {
+  width: 600px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.container_text h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container_text p {
+  width: 470px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 25px;
+}
+
+.container2 {
+  width: 100%;
+  height: 280vh;
+  margin-top: -40px;
+  background-color: #f2f2f3;
+}
+
+.container2 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container2 ul {
+  display: flex;
+  margin-top: 50px;
+  padding: 0px 270px;
+}
+
+.container2 ul li {
+  display: flex;
+  align-items: center;
+  color: #9a9ca5;
+  gap: 50px;
+}
+
+.container2 .box2 {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  padding: 0px 130px;
+}
+
+.container2 .carts2 {
+  width: 500px;
+  height: 482px;
+  background-color: #fff;
+}
+
+.container2 .carts2 img {
+  width: 500px;
+  height: 306px;
+}
+
+.container2 .carts2 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.container2 .carts2 p {
+  width: 470px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.application {
+  width: 1920px;
+  height: 826px;
+  padding-top: 100px;
+  background-image: url("./img/bc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.application h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application .box00 {
+  width: 495px;
+  height: 666px;
+  background-color: #fff;
+  padding: 40px;
+  margin-left:600px;
+}
+
+.application .box00 .card {
+  display: flex;
+  flex-direction: column;
+  color: #424551;
+  margin-top: 20px;
+}
+
+.application .box00 .card input {
+  width: 415px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d7dadd;
+  background-color: #f4f5f6;
+  text-indent: 10px;
+  margin-top: 5px;
+}
+
+.application .card0 {
+  /* display: flex; */
+  gap: 10px;
+  margin-top: 20px;
+}
+.application .box00 .card .check {
+  width: 40px;
+  height: 40px;
+}
+
+.application .box00 .card .label {
+  width: 367px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #424551;
+}
+
+.application .box00 button {
+  font-family: Ubuntu;
+  width: 174px;
+  height: 52px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff5a30;
+  color: white;
+  margin: 30px 130px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #1E212C;
+  width: 100%;
+  height: 566px;
+  margin-top: 12px;
+}
+
+.footer_up {
+  padding-top: 82px;
+  margin-left: 100px;
+}
+
+.footer_up i {
+  font-size: 24px;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.footer_up p {
+  width: 594px;
+  height: 84px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.footer_down {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 100px;
+  margin-top: 120px;
+  color: #fff;
+}
+
+.footer_down h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_down b {
+  margin-left: -6px;
+  margin-top: 80px;
+}
+
+.footer_inp {
+  color: #fff;
+  margin-top: -460px;
+  margin-left: 800px;
+}
+
+.footer_inp h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_inp input {
+  width: 340px;
+  height: 38px;
+  background-color: rgba(128, 128, 128, 0.61);
+  margin-top: 24px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 4px 0px 0px 4px;
+  padding: 12px 20px;
+}
+
+.footer_inp button{
+  width: 100px;
+  height: 38px;
+  border-radius: 0px 4px 4px 0px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-left: -4px;
+  cursor: pointer;
+  background-color: #FF5A30;
+}
+
+.footer_inp p{
+  width: 450px;
+  margin-top: 10px;
+  color: #787A80;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.footer_cent{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 90px;
+  margin-left: 520px;
+}
+
+.footer_right{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: -120px;
+  margin-left: 800px;
+}
+
+#footer_p{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 70px;
+  margin-left: 1150px;
+  line-height: 150%;
+  font-weight: 400;
+}

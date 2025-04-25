@@ -1,0 +1,758 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 10px 90px;
+}
+
+header h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+header .phone {
+  display: flex;
+}
+
+header .gmail {
+  display: flex;
+  gap: 5px;
+}
+
+header ul li {
+  display: flex;
+  gap: 40px;
+}
+
+header ul li a {
+  font-family: Ubuntu;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  height: 120vh;
+  background-image: url("./img/bg-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_text {
+  width: 600px;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.container_text h1 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container_text p {
+  width: 470px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 25px;
+}
+
+.container_text button {
+  font-family: Ubuntu;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin-top: 50px;
+}
+
+.container_text img {
+  margin-top: 150px;
+}
+
+.container2 {
+  width: 100%;
+  height: 105vh;
+  text-align: center;
+}
+
+.container2 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.container2 p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 20px auto;
+}
+
+.container3 {
+  width: 100%;
+  height: 45vh;
+  text-align: center;
+}
+
+.container3 .h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container3 .p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.container3 .box3 {
+  display: flex;
+  gap: 180px;
+  padding: 30px 100px;
+}
+
+.container3 .box3 .carts3 {
+  width: 285px;
+  height: 188px;
+}
+
+.container3 .box3 .carts3 img {
+  width: 48px;
+  height: 48px;
+}
+
+.container4 {
+  width: 100%;
+  height: 30vh;
+}
+
+.container4 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  padding: 20px 400px;
+}
+
+.container4 .box4 {
+  display: flex;
+  gap: 24px;
+  margin: 10px 250px;
+}
+
+.container4 .box4 .carts4 {
+  display: flex;
+  flex-direction: column;
+  color: #424551;
+}
+
+.container4 .box4 .carts4 input {
+  width: 260px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d7dadd;
+  background-color: #f4f5f6;
+  text-indent: 10px;
+  margin-top: 5px;
+}
+
+.container5 {
+  width: 100%;
+  height: 85vh;
+  background-color: #f4f5f6;
+  text-align: center;
+}
+
+.container5 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container5 p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.container5 .box5 {
+  display: flex;
+  margin-top: 50px;
+  padding: 10px 200px;
+}
+
+.container5 .box5 img {
+  width: 285px;
+  height: 285px;
+  margin-left: -20px;
+}
+
+.container5 .btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 300px;
+  gap: 30px;
+}
+
+.container5 .btn h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container5 .btn button {
+  font-family: Ubuntu;
+  width: 207px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #ff5a30;
+  color: white;
+}
+
+.container6 {
+  width: 100%;
+  height: 105vh;
+}
+
+.container6 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-left: 100px;
+}
+
+.container6 .box6 {
+  display: flex;
+  gap: 20px;
+  margin: 10px 70px;
+  align-items: center;
+}
+
+.container6 .box6 .carts6 {
+  width: 390px;
+  height: 440px;
+  text-align: center;
+}
+
+.container6 .box6 .carts6 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.container6 .box6 .carts6 p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.container6 .box6 .cart6 {
+  width: 390px;
+  height: 440px;
+  text-align: center;
+}
+
+.container6 .box6 .cart6 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.container6 .box6 .cart6 p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.container6 .cart6 button {
+  font-family: Ubuntu;
+  width: 172px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #ff5a30;
+  background-color: transparent;
+  color: #ff5a30;
+  margin-top: 20px;
+}
+
+.container6 .btn6 {
+  display: flex;
+  align-items: center;
+  padding: 10px 350px;
+  gap: 30px;
+}
+
+.container6 .btn6 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container6 .btn6 button {
+  font-family: Ubuntu;
+  width: 207px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #ff5a30;
+  color: white;
+}
+
+.container7 {
+  width: 100%;
+  height: 30vh;
+  background-color: #f4f5f6;
+}
+
+.container7 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container7 .box7 {
+  display: flex;
+  gap: 80px;
+  padding: 30px 120px;
+}
+
+.container8 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  background-color: #f4f5f6;
+  gap: 50px;
+  padding: 50px 150px;
+}
+
+.container8 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container8 .container8_text img {
+  margin-top: 30px;
+}
+
+.container8 .container8_text p {
+  width: 600px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.container8 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.container8 .img {
+  width: 450px;
+  height: 450px;
+}
+
+.container9 {
+  width: 100%;
+  height: 65vh;
+}
+
+.box9 {
+  display: flex;
+  gap: 50px;
+  padding: 50px 300px;
+}
+
+.container9 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.container10 {
+  width: 100%;
+  height: 120vh;
+}
+
+.container10 h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.container10 .box10 {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 130px;
+}
+
+.container10 .box10 .cart10 {
+  width: 700px;
+  height: 540px;
+}
+.container10 .box10 .cart10 {
+  width: 555px;
+  height: 540px;
+}
+
+.container10 .box10 .cart10 img {
+  width: 550px;
+  height: 290px;
+}
+
+.container10 .box10 .card10 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.container10 .box10 .cart10 .h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.container10 .box10 .cart10 p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #424551;
+  margin-top: 10px;
+}
+
+.container10 .box10 .carts10 {
+  width: 495px;
+  height: 255px;
+}
+
+.container10 .box10 .carts10 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  color: #ff5a30;
+  margin-left: 20px;
+}
+
+.container10 .box10 .carts10 p {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #424551;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.container10 .btn10 {
+  display: flex;
+  align-items: center;
+  padding: 10px 350px;
+  gap: 30px;
+  margin-top: -30px;
+}
+
+.container10 .btn10 h4 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+
+.container10 .btn10 button {
+  font-family: Ubuntu;
+  width: 207px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #ff5a30;
+  color: white;
+}
+
+.application {
+  width: 1920px;
+  height: 826px;
+  padding-top: 100px;
+  background-image: url("./img/bc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.application h3 {
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application .box00 {
+  width: 495px;
+  height: 666px;
+  background-color: #fff;
+  padding: 40px;
+  margin-left:600px;
+}
+
+.application .box00 .card {
+  display: flex;
+  flex-direction: column;
+  color: #424551;
+  margin-top: 20px;
+}
+
+.application .box00 .card input {
+  width: 415px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d7dadd;
+  background-color: #f4f5f6;
+  text-indent: 10px;
+  margin-top: 5px;
+}
+
+.application .card0 {
+  /* display: flex; */
+  gap: 10px;
+  margin-top: 20px;
+}
+.application .box00 .card .check {
+  width: 40px;
+  height: 40px;
+}
+
+.application .box00 .card .label {
+  width: 367px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #424551;
+}
+
+.application .box00 button {
+  font-family: Ubuntu;
+  width: 174px;
+  height: 52px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff5a30;
+  color: white;
+  margin: 30px 130px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #1E212C;
+  width: 100%;
+  height: 566px;
+  margin-top: 12px;
+}
+
+.footer_up {
+  padding-top: 82px;
+  margin-left: 100px;
+}
+
+.footer_up i {
+  font-size: 24px;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.footer_up p {
+  width: 594px;
+  height: 84px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.footer_down {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 100px;
+  margin-top: 120px;
+  color: #fff;
+}
+
+.footer_down h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_down b {
+  margin-left: -6px;
+  margin-top: 80px;
+}
+
+.footer_inp {
+  color: #fff;
+  margin-top: -460px;
+  margin-left: 800px;
+}
+
+.footer_inp h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_inp input {
+  width: 340px;
+  height: 38px;
+  background-color: rgba(128, 128, 128, 0.61);
+  margin-top: 24px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 4px 0px 0px 4px;
+  padding: 12px 20px;
+}
+
+.footer_inp button{
+  width: 100px;
+  height: 38px;
+  border-radius: 0px 4px 4px 0px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-left: -4px;
+  cursor: pointer;
+  background-color: #FF5A30;
+}
+
+.footer_inp p{
+  width: 450px;
+  margin-top: 10px;
+  color: #787A80;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.footer_cent{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 90px;
+  margin-left: 520px;
+}
+
+.footer_right{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: -120px;
+  margin-left: 800px;
+}
+
+#footer_p{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 70px;
+  margin-left: 1150px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+
