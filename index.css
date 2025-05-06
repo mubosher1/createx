@@ -38,6 +38,7 @@ header .phone {
 }
 
 header .gmail {
+  width: 100px;
   display: flex;
   gap: 5px;
 }
@@ -735,6 +736,11 @@ header ul li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.btn-fut{
+  display: flex;
+  align-items: center;
+}
+
 .footer_inp input {
   width: 340px;
   height: 38px;
@@ -748,7 +754,7 @@ header ul li a {
 }
 
 .footer_inp button{
-  width: 100px;
+  width: 130px;
   height: 38px;
   border-radius: 0px 4px 4px 0px;
   outline: none;
@@ -861,8 +867,8 @@ button {
 
 
 .media2{
-  max-width: 600px;
-  overflow-x: hidden;
+  width: 600px;
+  overflow-y: hidden;
 }
 
 
@@ -1244,7 +1250,7 @@ margin-left: 120px;
 }
 
 .application-m {
-  width: 1920px;
+  width: 600px;
   height: 826px;
   padding-top: 100px;
   background-image: url("./img/bc.jpg");
@@ -1321,7 +1327,7 @@ margin-left: 120px;
 .footer-m {
   background-color: #1E212C;
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   margin-top: 12px;
 }
 
@@ -1380,6 +1386,10 @@ margin-left: 120px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.btn-m-f{
+  display: flex;
+}
+
 .footer_inp-m input {
   width: 340px;
   height: 38px;
@@ -1393,15 +1403,15 @@ margin-left: 120px;
 }
 
 .footer_inp-m button{
-  width: 100px;
+  width: 120px;
   height: 38px;
   border-radius: 0px 4px 4px 0px;
   outline: none;
   border: none;
   color: #fff;
-  margin-left: -4px;
   cursor: pointer;
   background-color: #FF5A30;
+  margin-top: 24px;
 }
 
 .footer_inp-m p{
